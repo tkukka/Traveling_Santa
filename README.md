@@ -8,6 +8,6 @@ Input file [the Nice List](./nicelist.txt).
 # Results
 * The winning score: 7 617 894 396 meters (7.62 million km)
 * TOP 20 threshold: 7 806 673 753 meters  (7.81 million km)
-* Own score: 9708746 km (9.71 million km). Source: Python 3.x.  
+* Own score: 9708746 km (9.71 million km). Source: Python 3.x.  [The output](./output.txt).
 
 About the implementation: more or less ad hoc code, not recognizing the exact TSP, manual geographical clustering, single threaded,  5-nearest neighbors for nodes.
