@@ -1,6 +1,6 @@
 # Traveling Santa 2018
 Contest by [Reaktor](http://www.reaktor.com) in December 2018: [Traveling Santa](https://traveling-santa.reaktor.com).
-Input file [the Nice List](./nicelist.txt).
+Input file [the Nice List](./nicelist.txt) provided.
 #
 ![The Task](./reaktor-santa-task.png) 
 #
@@ -8,6 +8,7 @@ Input file [the Nice List](./nicelist.txt).
 # Results
 * The winning score: 7 617 894 396 meters (7.62 million km)
 * TOP 20 threshold: 7 806 673 753 meters  (7.81 million km)
-* Own score: 9708746 km (9.71 million km). Source: Python 3.x.  [The output](./output.txt).
-
-About the implementation: more or less ad hoc code, not recognizing the exact TSP, manual geographical clustering, single threaded,  5-nearest neighbors for nodes.
+* Own score: 9708746 km (9.71 million km).   [The output file](./output.txt).
+###
+Source: Python 3.x.
+About [the implementation](./santa_solve.py): more or less ad hoc code, not recognizing the exact TSP, manual geographical clustering, single threaded,  5-nearest neighbors for nodes. Takes hours to complete a result. Solver's code hard to maintain, not easy to comprehend after many months.
