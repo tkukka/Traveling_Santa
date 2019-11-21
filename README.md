@@ -12,3 +12,11 @@ Input file [the Nice List](./nicelist.txt) provided.
 ###
 Source: Python 3.x.
 About [the implementation](./santa_solve.py): more or less ad hoc code, not recognizing the exact TSP, manual geographical clustering, single threaded,  5-nearest neighbors for nodes. Takes hours to complete a result. Solver's code hard to maintain, not easy to comprehend after many months.
+### Displaying nodes with Visualize()
+Gives some insight to the problem when one can view the children's global locations. For example, the North Pole and Korvatunturi look like this:
+####
+![figure 1](./figure_1.png)
+###
+Displaying all 10000 locations is possible but it takes a lot of time. The Americas are visible:
+###
+![figure 2](./figure_2.png)
